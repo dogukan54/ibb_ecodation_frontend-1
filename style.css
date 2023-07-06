@@ -1,3 +1,6 @@
+
+
+
 /*
 Project : One Page
 Author  : Hamit Mızrak
@@ -65,11 +68,18 @@ p{
 
 .myHeading{
     text-align: center;
-    text-decoration: underline;
+    text-decoration: solid;
     margin-bottom: 2rem;
     text-transform: uppercase;
-    text-shadow: 0.4px -0.9px rgba(0,0,0,0.9);
-    opacity: 0.7;
+    color: white;
+    /* text-shadow: 0.9px -0.9px rgba(0,0,0,0.9); */
+    /* opacity: 0.7; */
+}
+
+
+
+.card-body h4{
+    color: black;
 }
 
 /* my special Size */
@@ -147,20 +157,22 @@ height:80vh;
 padding-top:4rem;
 }
 
+
+
 /* Messages */
-#messages{
+ #messages{
     margin-top:3rem;
     margin-bottom:3rem;
 }
 
-#messages > .container > .row > .text-center> p{
-    color:black!important;
+#messages  .container  .row  .text-center p{
+    color:black !important;
 }
 
 #messages i{
     color:blue;
     font-size: 5rem;
-}
+} 
 
 
 /* parallax */
@@ -174,7 +186,7 @@ padding-top:4rem;
     background-attachment: fixed;
 }
 
-#parallax > h2,p{
+#parallax h2,p{
     color:white!important;
 }
 
@@ -182,16 +194,17 @@ padding-top:4rem;
 #newspaper  {  
    height: 35rem;
    padding:2rem;
+   background-image: url(img/haber.jpg);
 }
 #newspaper p {  
-    color:black!important;  
+    color:white!important;  
     text-align: justify;
 }
 
 
 /* blog */
 #blog{
-background-color: #b5b8ff;
+
 }
 
 
